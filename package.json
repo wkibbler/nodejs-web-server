@@ -1,0 +1,18 @@
+{
+  "name": "nodejs-web-server",
+  "version": "0.1.0",
+  "description": "A simple website built with Node, Express and ejs",
+  "main": "server.js",
+  "scripts": {
+    "start": "npx pm2 start server.js --watch"
+  },
+  "author": "wkibbler",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "pm2": "^2.10.3"
+  }
+}
